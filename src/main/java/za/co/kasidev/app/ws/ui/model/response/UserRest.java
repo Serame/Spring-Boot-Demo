@@ -7,6 +7,7 @@ public class UserRest {
 	private String firstName;
 	private String lastName;
 	private String email;
+	private String message;
 	
 	
 	public String getUserID() {
@@ -32,6 +33,16 @@ public class UserRest {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	
+	public void setMessage(String message)
+	{
+		this.message = message;
+	}
+	
+	public String getMessage()
+	{
+		return this.message;
 	}
 	
 	
